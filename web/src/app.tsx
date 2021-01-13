@@ -14,6 +14,8 @@ import { ThemeProvider, Button } from "@material-ui/core";
 import theme from "./theme";
 import { SidebarContent } from "./components/sidebar";
 
+import { Emcc } from "./emcc";
+
 const drawerWidth = 300;
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -117,6 +119,7 @@ export const App = (props: any) => {
 
   return (
     <ThemeProvider theme={theme}>
+      <Emcc />
       <div className={classes.root}>
         <CssBaseline />
         <AppBar
