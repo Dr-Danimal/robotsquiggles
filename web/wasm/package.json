@@ -1,0 +1,10 @@
+{
+  "name": "squiggles_wasm",
+  "version": "0.1.0",
+  "files": [
+    "squiggles.wasm",
+    "squiggles.js"
+  ],
+  "module": "squiggles.js",
+  "sideEffects": false
+}
